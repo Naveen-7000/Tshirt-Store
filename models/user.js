@@ -27,7 +27,7 @@ const userSchema = new mongoose.Schema({
   },
   photo: {
     id: {
-      type: stringify,
+      type: String,
       required: true,
     },
     secure_url: {
